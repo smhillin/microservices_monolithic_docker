@@ -78,13 +78,13 @@ This container is responsible for loading static data to redis datastore.
 ## * Test the application
 
 #### Run below http either in browser or using curl (note: change the IP of your machine)
-* http://52.207.221.165:8080/sample-monolithic-1.0/rest/retailDesign/getallusers
-* http://52.207.221.165:8080/sample-monolithic-1.0/rest/retailDesign/getallproducts
-* http://52.207.221.165:8080/sample-monolithic-1.0/rest/retailDesign/getuser?userid=101
-* http://52.207.221.165:8080/sample-monolithic-1.0/rest/retailDesign/getuser?userid=102
-* http://52.207.221.165:8080/sample-monolithic-1.0/rest/retailDesign/getproduct?productid=201
-* http://52.207.221.165:8080/sample-monolithic-1.0/rest/retailDesign/getproduct?productid=205
-* http://52.207.221.165:8080/sample-monolithic-1.0/rest/retailDesign/userbuy?userid=101&productid=201
-* http://52.207.221.165:8080/sample-monolithic-1.0/rest/retailDesign/userbuy?userid=101&productid=203
-* http://52.207.221.165:8080/sample-monolithic-1.0/rest/retailDesign/getuser?userid=101
+* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getallstocks
+* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getallproducts
+* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getstock?productId=1
+* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getstock?productId=3
+* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getproduct?id=2
+* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getproduct?id=5
+
+* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/combinedproduct?productId=1&id=1
+* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/combinedproduct?productId=1&id=2
 
