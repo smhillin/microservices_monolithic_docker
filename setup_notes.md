@@ -12,13 +12,14 @@ sudo apt-get -y update
 sudo apt-get -y install default-jdk git maven redis-tools
 ```
 
+### Please note that docker installation is needed only if your machine doesn't have docker
 #### install docker
 
 ```bash
 curl -sSL https://get.docker.com/ | sh
 ```
 
-#### add sudo access to the user
+##### add sudo access to the user
 
 ```bash
 sudo groupadd docker
@@ -26,6 +27,7 @@ sudo usermod -aG docker $USER
 #exit and login again
 ```
 
+### Please note that docker-compose installation is needed only if your machine doesn't have docker-compose
 #### install docker-compose
 
 ```bash
@@ -78,13 +80,13 @@ This container is responsible for loading static data to redis datastore.
 ## * Test the application
 
 #### Run below http either in browser or using curl (note: change the IP of your machine)
-* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getallstocks
-* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getallproducts
-* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getstock?productId=1
-* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getstock?productId=3
-* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getproduct?id=2
-* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/getproduct?id=5
+* http://IP:8080/sample-monolithic-1.0/rest/retailDesign/getallstocks
+* http://IP:8080/sample-monolithic-1.0/rest/retailDesign/getallproducts
+* http://IP:8080/sample-monolithic-1.0/rest/retailDesign/getstock?productId=1
+* http://IP:8080/sample-monolithic-1.0/rest/retailDesign/getstock?productId=3
+* http://IP:8080/sample-monolithic-1.0/rest/retailDesign/getproduct?id=2
+* http://IP:8080/sample-monolithic-1.0/rest/retailDesign/getproduct?id=5
 
-* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/combinedproduct?productId=1&id=1
-* http://<AWS Machine IP>:8080/sample-monolithic-1.0/rest/retailDesign/combinedproduct?productId=1&id=2
+* http://IP:8080/sample-monolithic-1.0/rest/retailDesign/combinedproduct?productId=1&id=1
+* http://IP:8080/sample-monolithic-1.0/rest/retailDesign/combinedproduct?productId=1&id=2
 
