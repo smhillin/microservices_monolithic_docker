@@ -8,15 +8,15 @@ The app use redis database, to store all user data in database 01 and to store a
 
 #### Controller - com.app.core.RetailController.java
 Contains all code for the backend. This class implements the business logic, such as <br> 
-> get user details <br>
+> get stock details <br>
 > get product details <br>
-> user buy a product <br>
+> get product details using both databases <br>
 
 #### POJO - com.app.core.Product.java
 This class is the plain old java object and describes the attributes of individual products
 
-#### POJO - com.app.core.User.java
-This class is the plain old java object and describes the attributes of individual users
+#### POJO - com.app.core.Stock.java
+This class is the plain old java object and describes the attributes of individual stocks
 
 #### JAX Rest Beans - com.app.restfulws.resource.MyJax*.java
 These classes implements the beans of Rest api
