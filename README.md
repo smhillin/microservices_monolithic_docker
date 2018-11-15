@@ -27,7 +27,7 @@ This is the main Rest API class that interacts with the APIs and calls relavant 
 
 # Please follow below steps to run the application
 
-https://github.com/shekhar2010us/microservices_monolithic_docker/blob/master/setup_notes.md
+https://github.com/smhillin/microservices_monolithic_docker/blob/master/setup_notes.md
 
 
 References:-
