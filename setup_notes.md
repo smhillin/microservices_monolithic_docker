@@ -16,6 +16,9 @@ sudo apt-get -y install default-jdk git maven redis-tools
 #### install docker
 
 ```bash
+
+docker version
+
 curl -sSL https://get.docker.com/ | sh
 ```
 
